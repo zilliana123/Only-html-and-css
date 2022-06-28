@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: transparent;
+    font-size: 18px;
+    font-weight: bold;
+}
+.container {
+    max-width: 300px;
+    margin: auto;
+}
+ul {
+    list-style: none;
+}
+li {
+    cursor: pointer;
+}
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3rem 0;
+}
+.menu ul {
+    display: none;
+}
+.menu li:hover > ul {
+    display: block;
+}
+.menu li > ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+.menu li > ul li:hover a {
+    color: #666666;
+}
